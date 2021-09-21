@@ -9,7 +9,7 @@ use std::net::IpAddr;
 const MAX_ATTEMPTS: usize = 3;
 
 pub fn create_client() -> SyncClient<UdpClientConnection> {
-    let address = "1.1.1.1:53".parse().unwrap();
+    let address = "8.8.8.8:53".parse().unwrap();
     let conn = UdpClientConnection::new(address).unwrap();
 
     SyncClient::new(conn)
