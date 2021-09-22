@@ -1,6 +1,6 @@
 # RDNS
 
-RDNS is a small CLI utility for performing single and bulk reverse DNS (PTR) lookups.
+RDNS is a small Rust CLI utility for performing single and bulk reverse DNS (PTR) lookups.
 
 ## Usage
 
